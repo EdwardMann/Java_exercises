@@ -1,0 +1,14 @@
+the list of additional libraries, files and instructions that are used to run this application are described as follows:
+
+1- javafx is used for displaying graphs
+2- swingx-all-1.6.4.jar was added to eclipse library for GUI purposes.
+3- sqlite-jdbc-3.16.1.jar used for Database purpose.
+4- Junit 3 tests were implemented in order to perform tests on the application.
+5- CSV files were included in the project directory so they could be located easily when the Junit tests are run.
+6- sqlite should be installed on the machine, which runs the application.
+
+Run Configurations: 
+
+please add arguments to the JVM such that:
+
+java -Xms3000m EvaluationTool.java
